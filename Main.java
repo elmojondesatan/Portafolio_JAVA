@@ -6,6 +6,7 @@ import Grados.grados;
 import Funciones.Funciones;
 import opciones.ListaOpciones;
 import Lista.ListaDeCompras;
+import monedas.Conversor;
 
 //Importar de nombreLibreria.nombrePaquete.nombreClase
 import java.util.Scanner;
@@ -19,7 +20,7 @@ public class Main {
                 "Calculadora", "IMC",
                 "Farenheit / Celsius", "Calcular edad",
                 "Grados", "Lista de Compras",
-                "Opción_7", "Opción_8",
+                "Conversor de Monedas", "Opción_8",
                 "Opción_9", "Salir" };
 
         boolean programa = true;
@@ -61,7 +62,7 @@ public class Main {
                     ListaDeCompras.programa();
                     break;
                 case 7:
-                    System.out.println("Opcion7");
+                    Conversor.programaMonedas();
                     break;
                 case 8:
                     System.out.println("Opcion8");
