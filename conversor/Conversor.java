@@ -1,6 +1,6 @@
-package monedas;
+package conversor;
 
-import opciones.ListaOpciones;
+import MisMetodos.ListaOpciones;
 
 import java.util.Scanner;
 

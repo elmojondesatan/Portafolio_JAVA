@@ -1,12 +1,11 @@
-//Importar del nombrePaqueta.nombreClase
-import Programas.ProgramasIMC;
-import interfazgrafica.Baner;
-import Matematicas.Mate;
-import Grados.grados;
-import Funciones.Funciones;
-import opciones.ListaOpciones;
+import IMC.ProgramasIMC;
 import Lista.ListaDeCompras;
-import monedas.Conversor;
+import interfazgrafica.Baner;
+import calculadora.Mate;
+import conversor.grados;
+import conversor.Funciones;
+import MisMetodos.ListaOpciones;
+import conversor.Conversor;
 
 //Importar de nombreLibreria.nombrePaquete.nombreClase
 import java.util.Scanner;

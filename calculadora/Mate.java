@@ -1,7 +1,7 @@
-    package Matematicas;
+    package calculadora;
 
     import java.util.Scanner;
-    import opciones.ListaOpciones;
+
     public class Mate {
 
 
@@ -16,7 +16,7 @@
                 };
 
                 // Imrpime las opciones de la lista
-                opciones.ListaOpciones.cargarOpciones(ListaOpciones);
+                MisMetodos.ListaOpciones.cargarOpciones(ListaOpciones);
 
                 // Que más hago?
                 Scanner intprograma = new Scanner(System.in);

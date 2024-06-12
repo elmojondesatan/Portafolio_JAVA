@@ -18,7 +18,7 @@ Es el archivo principal de una aplicación Java, que contiene el método main, p
 * Descripcion:
   Es una forma interactiva y visual de comunicación entre el usuario y una aplicación, utilizando elementos como ventanas, botones, menús y formularios. Diseñada para ser intuitiva y fácil de usar.
 
-<h3>Matematicas </h3>
+<h3>calculadora </h3>
 * Archivos
   `Mate.java`
 
@@ -40,9 +40,9 @@ En este programas en el cual relalizamos metodos y operaciones matematicas las q
 * Descripcion:
   Realizamos una lista de compra en la cual añadimos el producto con el precio.
 
-<h3>Funciones </h3>
+<h3>conversor </h3>
 * Archivos
-  `Funciones .java`
+  `conversor .java`
 
 * Descripcion:
   Realizamos una lista de compra en la cual añadimos el producto con el precio.
@@ -55,7 +55,7 @@ En este programas en el cual relalizamos metodos y operaciones matematicas las q
   Realizamos una programas el cual convierte Fahrenheit a Celsius y vice versa.
 
 
-<h3>Programas </h3>
+<h3>IMC </h3>
 * Archivos
   `ProgramasIMC.java`
 

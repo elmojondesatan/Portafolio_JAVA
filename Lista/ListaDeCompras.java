@@ -2,7 +2,7 @@ package Lista;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import opciones.ListaOpciones;
+import MisMetodos.ListaOpciones;
 public class ListaDeCompras {
 
     public static String[] opciones6 = {"Lista de compras", "Salir"};

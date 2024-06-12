@@ -1,4 +1,4 @@
-package Funciones;
+package conversor;
 
 import java.util.Scanner;
 
