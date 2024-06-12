@@ -1,5 +1,6 @@
 import IMC.ProgramasIMC;
 import Lista.ListaDeCompras;
+import MisMetodos.MisMetodos;
 import interfazgrafica.Baner;
 import calculadora.Mate;
 import conversor.grados;
@@ -26,7 +27,9 @@ public class Main {
 
         do {
             //nombreClase.nombreMetodo
+            MisMetodos.LimpiarConsola();
             Baner.mensaje();
+            MisMetodos.imprimirLinea();
             ListaOpciones.cargarOpciones(listaDeOpciones);
 
 
@@ -34,7 +37,7 @@ public class Main {
             Scanner intOpciones = new Scanner(System.in);
             System.out.print("[?]: ");
             int opcion = intOpciones.nextInt();
-            System.out.println("---------------------------------------------------------------------------------------");
+            MisMetodos.imprimirLinea();
 
 
             ProgramasIMC.pIMC(180,40);
@@ -76,6 +79,8 @@ public class Main {
             }
 
         }while (programa);
+
+        MisMetodos.imprimirLinea();
 
 
     }

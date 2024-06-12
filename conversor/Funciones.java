@@ -1,5 +1,7 @@
 package conversor;
 
+import MisMetodos.MisMetodos;
+
 import java.util.Scanner;
 
 public class Funciones {
@@ -33,11 +35,11 @@ public class Funciones {
         switch (p_unidades){
             case 1:
                 System.out.println("metros a kilometros son: "+ unidad(num1));
-                System.out.println("-----------------------------------------");
+                MisMetodos.imprimirLinea();
                 break;
             case 2:
                 System.out.println("Kilometros a metros: " + kilometro(num1));
-                System.out.println("------------------------------------------");
+                MisMetodos.imprimirLinea();
                 break;
         }
     }
