@@ -8,6 +8,9 @@ import conversor.Funciones;
 import MisMetodos.ListaOpciones;
 import conversor.Conversor;
 import libros.Biblioteca;
+import colegio.Escuela;
+import colegio.Cursos;
+import colegio.Estudiantes;
 
 //Importar de nombreLibreria.nombrePaquete.nombreClase
 import java.util.Scanner;
@@ -22,7 +25,7 @@ public class Main {
                 "Farenheit / Celsius", "Calcular edad",
                 "Grados", "Lista de Compras",
                 "Conversor de Monedas", "Biblioteca",
-                "Opción_9", "Salir" };
+                "Escuela", "Salir" };
 
         boolean programa = true;
 
@@ -71,7 +74,7 @@ public class Main {
                     Biblioteca.programa();
                     break;
                 case 9:
-                    System.out.println("Opcion9");
+                    Escuela.programa();
                     break;
                 case 10:
                     System.out.println("FINAL DEL PROGRAMA");
