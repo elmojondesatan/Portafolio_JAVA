@@ -61,3 +61,19 @@ En este programas en el cual relalizamos metodos y operaciones matematicas las q
 
 * Descripcion:
   Realizamos un programa que calcula el Índice de Masa Corporal (IMC) basado en la altura y el peso proporcionados por el usuario.
+
+<h3>Libros </h3>
+* Archivos
+  `Biblioteca.java`
+* Descripcion:define una clase llamada Libro dentro del paquete libros. Esta clase tiene tres atributos privados: titulo, autor, y fecha, que representan el título, el autor y la fecha de publicación de un libro, respectivamente. La clase incluye un constructor para inicializar estos atributos cuando se crea un nuevo objeto Libro. 
+
+
+* Además, proporciona métodos get y set para acceder y modificar los valores de estos atributos. El método toString está sobrescrito para devolver una cadena de texto que describe el libro, combinando su título, autor y fecha de publicación en un formato legible.
+
+<h3>Colegio </h3>
+* Archivos
+  `Escuela.java`
+* Descripcion:define una clase Escuela dentro del paquete colegio, que contiene un método estático programa. Este método imprime información sobre estudiantes y cursos en una escuela primaria. Primero, crea cinco objetos Estudiantes con sus respectivos nombres, correos electrónicos, grados, edades y sexos. Luego, imprime los nombres y correos electrónicos de estos estudiantes.
+
+
+* A continuación, crea cinco objetos Cursos, especificando el nombre del curso, la materia asociada y el grado al que pertenecen. Finalmente, imprime los nombres de estos cursos. La estructura sugiere la existencia de clases Estudiantes y Cursos que manejan la información correspondiente.
