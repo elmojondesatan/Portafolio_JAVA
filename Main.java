@@ -9,8 +9,11 @@ import MisMetodos.ListaOpciones;
 import conversor.Conversor;
 import libros.Biblioteca;
 import colegio.Escuela;
-import colegio.Cursos;
-import colegio.Estudiantes;
+
+import javax.swing.*;
+import java.awt.Color;
+import javax.swing.JLabel;
+import javax.swing.JButton;
 
 //Importar de nombreLibreria.nombrePaquete.nombreClase
 import java.util.Scanner;
@@ -25,7 +28,75 @@ public class Main {
                 "Farenheit / Celsius", "Calcular edad",
                 "Grados", "Lista de Compras",
                 "Conversor de Monedas", "Biblioteca",
-                "Escuela", "Salir" };
+                "Escuela", "Salir"};
+
+        JFrame miventana = new JFrame();
+        miventana.setBounds(0, 0, 500, 600);
+        miventana.setLayout(null);
+
+        miventana.setTitle("Mi Aplicación");
+        miventana.setLocationRelativeTo(null);
+
+        JPanel banner = new JPanel();
+
+        miventana.add(banner);
+        banner.setBackground(Color.BLUE);
+        banner.setBounds(0, 0, 500, 300);
+
+
+        miventana.add(banner);
+
+
+        JLabel label = new JLabel("Rockema");
+        label.setForeground(Color.WHITE);
+        label.setBounds(0, 0, 0, 0);
+
+
+        JLabel option1 = new JLabel("[1]-------------");
+        option1.setForeground(Color.WHITE);
+        option1.setBounds(50, 50, 150, 30);
+
+        JLabel option2 = new JLabel("[2]---------------");
+        option2.setForeground(Color.WHITE);
+        option2.setBounds(300, 50, 150, 30);
+
+        JLabel option3 = new JLabel("[3]-------------");
+        option3.setForeground(Color.WHITE);
+        option3.setBounds(50, 150, 150, 30);
+
+        JLabel option4 = new JLabel("[4]---------------");
+        option4.setForeground(Color.WHITE);
+        option4.setBounds(300, 150, 150, 30);
+
+        JLabel option5 = new JLabel("[5]-------------");
+        option5.setForeground(Color.WHITE);
+        option5.setBounds(50, 250, 150, 30);
+
+        JLabel option6 = new JLabel("[6]-------------");
+        option6.setForeground(Color.WHITE);
+        option6.setBounds(300, 250, 150, 30);
+
+
+        JButton boton = new JButton("Click Me");
+        boton.setBounds(200,500,100,30);
+
+
+        miventana.add(option1);
+        miventana.add(option2);
+        miventana.add(option3);
+        miventana.add(option4);
+        miventana.add(option5);
+        miventana.add(option6);
+        miventana.add(boton);
+
+
+
+
+        banner.add(label);
+        miventana.add(banner);
+        miventana.setVisible(true);
+
+
 
         boolean programa = true;
 
